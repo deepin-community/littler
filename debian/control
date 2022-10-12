@@ -1,0 +1,42 @@
+Source: littler
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper, cdbs, r-base-dev (>= 4.1.1)
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-littler
+Vcs-Git: https://salsa.debian.org/edd/r-cran-littler.git
+Homepage: https://cran.r-project.org/package=littler
+
+Package: r-cran-littler
+Architecture: any
+Depends: ${R:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Suggests: r-cran-getopt
+Provides: littler
+Conflicts: littler (<= 0.2.3-2)
+Replaces: littler
+Description: GNU R scripting and command-line front-end
+ The 'r' (aka 'littler') program provides a lightweight binary wrapper around 
+ the GNU R language and environment for statistical computing and graphics. 
+ .
+ While R can be used in batch mode, the r binary adds full support for
+ both 'shebang'-style scripting (i.e. using a  hashmark-exclamation-path 
+ expression as the first line in scripts) as well as command-line use in 
+ standard Unix pipelines. In other words, r provides the R language without 
+ the environment. 
+
+Package: littler
+Architecture: all
+Depends: ${misc:Depends}, r-cran-littler
+Description: GNU R scripting and command-line front-end -- transition package
+ The 'r' (aka 'littler') program provides a lightweight binary wrapper around 
+ the GNU R language and environment for statistical computing and graphics. 
+ .
+ While R can be used in batch mode, the r binary adds full support for
+ both 'shebang'-style scripting (i.e. using a  hashmark-exclamation-path 
+ expression as the first line in scripts) as well as command-line use in 
+ standard Unix pipelines. In other words, r provides the R language without 
+ the environment. 
+ .
+ This virtual package ensures that 'r-cran-littler' is installed. Once that
+ is done, this 'littler' package can be removed.

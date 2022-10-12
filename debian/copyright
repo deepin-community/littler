@@ -1,0 +1,16 @@
+This is the Debian GNU/Linux littler package, a leightweight wrapper
+for shebang-style scripting and pipeline uses for the GNU R language
+and environment for statistical computing and graphics. It was written
+by Jeffrey Horner and Dirk Eddelbuettel.
+
+This package was created by Dirk Eddelbuettel <edd@debian.org>.
+The sources were downloaded from the git archive at
+        https://github.com/eddelbuettel/littler
+        
+Copyright (C) 2006 - 2016 Jeffey Horner and Dirk Eddelbuettel
+
+License: GPL
+
+On a Debian GNU/Linux system, the GPL license is included in the file
+/usr/share/common-licenses/GPL.
+

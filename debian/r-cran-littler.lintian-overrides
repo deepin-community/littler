@@ -1,0 +1,19 @@
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib32/libfakeroot
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib64/libfakeroot
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/x86_64-linux-gnu/libfakeroot
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/R/lib
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/x86_64-linux-gnu
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/jvm/default-java/jre/lib/amd64/server
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/jvm/java-9-openjdk-amd64/lib/server
+r-cran-littler: hardening-no-relro usr/lib/R/site-library/littler/bin/r
+r-cran-littler: unstripped-binary-or-object usr/bin/r
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/x86_64-linux-gnu
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/R/lib
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib32/libfakeroot
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/jvm/default-java/jre/lib/amd64/server
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/jvm/java-9-openjdk-amd64/lib/server
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/x86_64-linux-gnu/libfakeroot
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib64/libfakeroot
+r-cran-littler: hardening-no-relro usr/bin/r
+r-cran-littler: binary-or-shlib-defines-rpath usr/bin/r /usr/lib/jvm/default-java/lib/server
+r-cran-littler: binary-or-shlib-defines-rpath usr/lib/R/site-library/littler/bin/r /usr/lib/jvm/default-java/lib/server
